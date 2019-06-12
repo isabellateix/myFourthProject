@@ -4,3 +4,42 @@
   height: 100px
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#navbar ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    text-align: center;
+}
+
+#navbar ul li { display: inline; }
+
+#navbar ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+figcaption {
+	width: 29.7%; 
+}
+
+img{
+	height: 150px;
+}
+
+header{
+	background-color: grey;
+	padding: 10px;
+}
